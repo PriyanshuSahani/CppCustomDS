@@ -70,6 +70,14 @@ public:
         }
         return Default;
     }
+    int Find(int value) {
+        for ( int i=0; i<Length; ++i ) {
+            if ( Items[i] == value ) {
+                return i;
+            }
+        return -1; //-1 indicates that the value/number was not found
+        }
+    }
     int GetCapacity() {
         return Capacity;
     }
