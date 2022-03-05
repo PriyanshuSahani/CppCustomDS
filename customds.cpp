@@ -103,6 +103,30 @@ public:
     }
 };
 
-void check_it() {
-    cout<< "Functions work"<< endl;
+
+class LinkedList {
+private:
+    class Node {
+    private:
+        int Value;
+        Node Next;
+    public:
+        Node(int value) {
+            Value = value;
+        }
+    };
+
+    Node Head;
+    Node Tail;
+
+public:
+    void AddLast(int item) {
+        new Node node(item);
+        if (Head == NULL) {
+            Head = Tail = node;
+        }else {
+            Tail.Next = node;
+            Tail = node
+        }
+    }
 }

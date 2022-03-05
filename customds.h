@@ -2,4 +2,4 @@
 #include "customds.cpp"
 
 class Array;
-void check_it();
+class LinkedList;
