@@ -102,7 +102,3 @@ public:
         }
     }
 };
-
-void check_it() {
-    cout<< "Functions work"<< endl;
-}
