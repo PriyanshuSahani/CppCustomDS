@@ -4,7 +4,9 @@ using namespace std;
 
 
 int main() {
-    check_it();
+    LinkedList list;
+    // list.AddLast(6);
+    // list.AddLast(7);
 }
 
 // int main() {
